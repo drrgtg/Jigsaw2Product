@@ -22,6 +22,11 @@
 		9D150F5524FE397C00845A87 /* PFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F5424FE397C00845A87 /* PFBaseViewController.swift */; };
 		9D150F5724FE3DF900845A87 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F5624FE3DF900845A87 /* Constant.swift */; };
 		9D150F5A24FE3F4700845A87 /* FFStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F5924FE3F4700845A87 /* FFStyleModel.m */; };
+		9D150F5D24FE46C100845A87 /* launch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F5B24FE46C100845A87 /* launch@3x.png */; };
+		9D150F5E24FE46C100845A87 /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F5C24FE46C100845A87 /* launch@2x.png */; };
+		9D150F6124FE491700845A87 /* PFCoinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F6024FE491700845A87 /* PFCoinListViewController.swift */; };
+		9D150F6524FE4A2B00845A87 /* PFCoinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F6324FE4A2B00845A87 /* PFCoinCollectionViewCell.swift */; };
+		9D150F6624FE4A2B00845A87 /* PFCoinCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F6424FE4A2B00845A87 /* PFCoinCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,11 @@
 		9D150F5624FE3DF900845A87 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		9D150F5824FE3F4700845A87 /* FFStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFStyleModel.h; sourceTree = "<group>"; };
 		9D150F5924FE3F4700845A87 /* FFStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFStyleModel.m; sourceTree = "<group>"; };
+		9D150F5B24FE46C100845A87 /* launch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@3x.png"; sourceTree = "<group>"; };
+		9D150F5C24FE46C100845A87 /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
+		9D150F6024FE491700845A87 /* PFCoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFCoinListViewController.swift; sourceTree = "<group>"; };
+		9D150F6324FE4A2B00845A87 /* PFCoinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFCoinCollectionViewCell.swift; sourceTree = "<group>"; };
+		9D150F6424FE4A2B00845A87 /* PFCoinCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PFCoinCollectionViewCell.xib; sourceTree = "<group>"; };
 		D589157304DDCD306EDDA7E5 /* Pods_PuzzleFilterProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuzzleFilterProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,11 +112,13 @@
 			isa = PBXGroup;
 			children = (
 				9D150F2B24FE36AB00845A87 /* AppDelegate.swift */,
-				9D150F5324FE392800845A87 /* Main */,
 				9D150F2F24FE36AB00845A87 /* ViewController.swift */,
+				9D150F5F24FE48FE00845A87 /* Coin */,
 				9D150F4A24FE390100845A87 /* StickerView-Framework */,
 				9D150F3F24FE380100845A87 /* Base */,
 				9D150F3124FE36AB00845A87 /* Main.storyboard */,
+				9D150F5C24FE46C100845A87 /* launch@2x.png */,
+				9D150F5B24FE46C100845A87 /* launch@3x.png */,
 				9D150F3424FE36C000845A87 /* Assets.xcassets */,
 				9D150F3624FE36C000845A87 /* LaunchScreen.storyboard */,
 				9D150F3924FE36C000845A87 /* Info.plist */,
@@ -158,11 +170,22 @@
 			path = "StickerView-Framework";
 			sourceTree = "<group>";
 		};
-		9D150F5324FE392800845A87 /* Main */ = {
+		9D150F5F24FE48FE00845A87 /* Coin */ = {
 			isa = PBXGroup;
 			children = (
+				9D150F6024FE491700845A87 /* PFCoinListViewController.swift */,
+				9D150F6224FE4A1C00845A87 /* View */,
 			);
-			path = Main;
+			path = Coin;
+			sourceTree = "<group>";
+		};
+		9D150F6224FE4A1C00845A87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D150F6324FE4A2B00845A87 /* PFCoinCollectionViewCell.swift */,
+				9D150F6424FE4A2B00845A87 /* PFCoinCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,10 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D150F6624FE4A2B00845A87 /* PFCoinCollectionViewCell.xib in Resources */,
 				9D150F3824FE36C000845A87 /* LaunchScreen.storyboard in Resources */,
 				9D150F3524FE36C000845A87 /* Assets.xcassets in Resources */,
 				9D150F5024FE390100845A87 /* StickerView.bundle in Resources */,
 				9D150F3324FE36AB00845A87 /* Main.storyboard in Resources */,
+				9D150F5D24FE46C100845A87 /* launch@3x.png in Resources */,
+				9D150F5E24FE46C100845A87 /* launch@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D150F6124FE491700845A87 /* PFCoinListViewController.swift in Sources */,
 				9D150F5224FE390100845A87 /* StickerView.m in Sources */,
 				9D150F5124FE390100845A87 /* SingleHandGestureRecognizer.m in Sources */,
 				9D150F3024FE36AB00845A87 /* ViewController.swift in Sources */,
@@ -292,6 +319,7 @@
 				9D150F5524FE397C00845A87 /* PFBaseViewController.swift in Sources */,
 				9D150F5724FE3DF900845A87 /* Constant.swift in Sources */,
 				9D150F4524FE382500845A87 /* QMUIConfigurationTemplate.m in Sources */,
+				9D150F6524FE4A2B00845A87 /* PFCoinCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TEA4KWX63Q;
 				INFOPLIST_FILE = PuzzleFilterProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -458,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TEA4KWX63Q;
 				INFOPLIST_FILE = PuzzleFilterProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

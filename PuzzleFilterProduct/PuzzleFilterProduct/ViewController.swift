@@ -33,6 +33,11 @@ class ViewController: QMUICommonViewController {
             goldBtn?.setTitle(goldNumber, for: .normal)
         }
     }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        goldBtn.layer.cornerRadius = 25
+        goldBtn.layer.qmui_maskedCorners = QMUICornerMask(rawValue: QMUICornerMask.layerMaxXMinYCorner.rawValue | QMUICornerMask.layerMinXMinYCorner.rawValue)
+    }
 
     override func initSubviews() {
         super.initSubviews()
@@ -55,6 +60,8 @@ class ViewController: QMUICommonViewController {
     @IBAction func clickStart(_ sender: Any) {
     }
     @IBAction func clickGold(_ sender: Any) {
+        let vc = PFCoinListViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     @objc func clickSetting() {
         // setting
