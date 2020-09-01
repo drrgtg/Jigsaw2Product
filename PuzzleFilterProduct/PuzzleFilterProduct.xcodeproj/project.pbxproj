@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		26EB02E221BC94EEB3F009C1 /* Pods_PuzzleFilterProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D589157304DDCD306EDDA7E5 /* Pods_PuzzleFilterProduct.framework */; };
 		9D150F2C24FE36AB00845A87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F2B24FE36AB00845A87 /* AppDelegate.swift */; };
-		9D150F3024FE36AB00845A87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F2F24FE36AB00845A87 /* ViewController.swift */; };
+		9D150F3024FE36AB00845A87 /* PFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F2F24FE36AB00845A87 /* PFViewController.swift */; };
 		9D150F3324FE36AB00845A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F3124FE36AB00845A87 /* Main.storyboard */; };
 		9D150F3524FE36C000845A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F3424FE36C000845A87 /* Assets.xcassets */; };
 		9D150F3824FE36C000845A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F3624FE36C000845A87 /* LaunchScreen.storyboard */; };
@@ -22,8 +22,7 @@
 		9D150F5524FE397C00845A87 /* PFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F5424FE397C00845A87 /* PFBaseViewController.swift */; };
 		9D150F5724FE3DF900845A87 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F5624FE3DF900845A87 /* Constant.swift */; };
 		9D150F5A24FE3F4700845A87 /* FFStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F5924FE3F4700845A87 /* FFStyleModel.m */; };
-		9D150F5D24FE46C100845A87 /* launch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F5B24FE46C100845A87 /* launch@3x.png */; };
-		9D150F5E24FE46C100845A87 /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F5C24FE46C100845A87 /* launch@2x.png */; };
+		9D150F5D24FE46C100845A87 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F5B24FE46C100845A87 /* launch.png */; };
 		9D150F6124FE491700845A87 /* PFCoinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F6024FE491700845A87 /* PFCoinListViewController.swift */; };
 		9D150F6524FE4A2B00845A87 /* PFCoinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F6324FE4A2B00845A87 /* PFCoinCollectionViewCell.swift */; };
 		9D150F6624FE4A2B00845A87 /* PFCoinCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F6424FE4A2B00845A87 /* PFCoinCollectionViewCell.xib */; };
@@ -34,7 +33,7 @@
 		95D2D62F8279F06E7C4422FF /* Pods-PuzzleFilterProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuzzleFilterProduct.debug.xcconfig"; path = "Target Support Files/Pods-PuzzleFilterProduct/Pods-PuzzleFilterProduct.debug.xcconfig"; sourceTree = "<group>"; };
 		9D150F2824FE36AB00845A87 /* PuzzleFilterProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleFilterProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D150F2B24FE36AB00845A87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D150F2F24FE36AB00845A87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D150F2F24FE36AB00845A87 /* PFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFViewController.swift; sourceTree = "<group>"; };
 		9D150F3224FE36AB00845A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D150F3424FE36C000845A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D150F3724FE36C000845A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,8 +52,7 @@
 		9D150F5624FE3DF900845A87 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		9D150F5824FE3F4700845A87 /* FFStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFStyleModel.h; sourceTree = "<group>"; };
 		9D150F5924FE3F4700845A87 /* FFStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFStyleModel.m; sourceTree = "<group>"; };
-		9D150F5B24FE46C100845A87 /* launch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@3x.png"; sourceTree = "<group>"; };
-		9D150F5C24FE46C100845A87 /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
+		9D150F5B24FE46C100845A87 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		9D150F6024FE491700845A87 /* PFCoinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFCoinListViewController.swift; sourceTree = "<group>"; };
 		9D150F6324FE4A2B00845A87 /* PFCoinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFCoinCollectionViewCell.swift; sourceTree = "<group>"; };
 		9D150F6424FE4A2B00845A87 /* PFCoinCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PFCoinCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -112,13 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				9D150F2B24FE36AB00845A87 /* AppDelegate.swift */,
-				9D150F2F24FE36AB00845A87 /* ViewController.swift */,
+				9D150F2F24FE36AB00845A87 /* PFViewController.swift */,
 				9D150F5F24FE48FE00845A87 /* Coin */,
 				9D150F4A24FE390100845A87 /* StickerView-Framework */,
 				9D150F3F24FE380100845A87 /* Base */,
 				9D150F3124FE36AB00845A87 /* Main.storyboard */,
-				9D150F5C24FE46C100845A87 /* launch@2x.png */,
-				9D150F5B24FE46C100845A87 /* launch@3x.png */,
+				9D150F5B24FE46C100845A87 /* launch.png */,
 				9D150F3424FE36C000845A87 /* Assets.xcassets */,
 				9D150F3624FE36C000845A87 /* LaunchScreen.storyboard */,
 				9D150F3924FE36C000845A87 /* Info.plist */,
@@ -254,8 +251,7 @@
 				9D150F3524FE36C000845A87 /* Assets.xcassets in Resources */,
 				9D150F5024FE390100845A87 /* StickerView.bundle in Resources */,
 				9D150F3324FE36AB00845A87 /* Main.storyboard in Resources */,
-				9D150F5D24FE46C100845A87 /* launch@3x.png in Resources */,
-				9D150F5E24FE46C100845A87 /* launch@2x.png in Resources */,
+				9D150F5D24FE46C100845A87 /* launch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +307,7 @@
 				9D150F6124FE491700845A87 /* PFCoinListViewController.swift in Sources */,
 				9D150F5224FE390100845A87 /* StickerView.m in Sources */,
 				9D150F5124FE390100845A87 /* SingleHandGestureRecognizer.m in Sources */,
-				9D150F3024FE36AB00845A87 /* ViewController.swift in Sources */,
+				9D150F3024FE36AB00845A87 /* PFViewController.swift in Sources */,
 				9D150F4624FE382500845A87 /* JPToast.swift in Sources */,
 				9D150F4824FE386200845A87 /* PFBaseNavigationController.swift in Sources */,
 				9D150F2C24FE36AB00845A87 /* AppDelegate.swift in Sources */,

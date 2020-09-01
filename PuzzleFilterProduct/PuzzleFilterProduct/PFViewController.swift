@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: QMUICommonViewController {
+class PFViewController: QMUICommonViewController {
 
     @IBOutlet weak var faceImageView: UIImageView!
     @IBOutlet weak var startBtn: UIButton!
