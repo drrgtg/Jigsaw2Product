@@ -31,7 +31,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eib-mj-4P1">
-                        <rect key="frame" x="275" y="19" width="31" height="14.5"/>
+                        <rect key="frame" x="259" y="19" width="31" height="14.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" red="0.73725490196078436" green="0.73725490196078436" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
@@ -40,7 +40,7 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="cvw-fJ-Tmu" firstAttribute="leading" secondItem="lWN-cL-Y17" secondAttribute="trailing" constant="16" id="23Z-Bv-IGb"/>
-                    <constraint firstAttribute="trailing" secondItem="Eib-mj-4P1" secondAttribute="trailing" id="2ak-CL-eRC"/>
+                    <constraint firstAttribute="trailing" secondItem="Eib-mj-4P1" secondAttribute="trailing" constant="16" id="2ak-CL-eRC"/>
                     <constraint firstItem="lWN-cL-Y17" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="AN5-cC-x8R"/>
                     <constraint firstItem="lWN-cL-Y17" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Foe-dG-Djp"/>
                     <constraint firstItem="cvw-fJ-Tmu" firstAttribute="centerY" secondItem="lWN-cL-Y17" secondAttribute="centerY" id="MYJ-0L-2sz"/>
