@@ -14,6 +14,7 @@ class PFTermServiceViewController: PFBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        title = "Terms of Service"
     }
 
 

@@ -65,6 +65,8 @@ class PFViewController: QMUICommonViewController {
     }
     @objc func clickSetting() {
         // setting
+        let vc = PFSettingViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
