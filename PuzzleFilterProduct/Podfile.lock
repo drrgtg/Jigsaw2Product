@@ -313,6 +313,7 @@ PODS:
   - SnapKit (5.0.1)
   - SVProgressHUD (2.2.5)
   - Toast-Swift (5.0.1)
+  - TZImagePickerController (3.4.2)
 
 DEPENDENCIES:
   - IAPurchaseManager
@@ -320,6 +321,7 @@ DEPENDENCIES:
   - SnapKit
   - SVProgressHUD
   - Toast-Swift (~> 5.0.1)
+  - TZImagePickerController
 
 SPEC REPOS:
   trunk:
@@ -328,6 +330,7 @@ SPEC REPOS:
     - SnapKit
     - SVProgressHUD
     - Toast-Swift
+    - TZImagePickerController
 
 SPEC CHECKSUMS:
   IAPurchaseManager: 2e4678d9dc157627e1f2c4c6e13fd9559f27f3c0
@@ -335,7 +338,8 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
 
-PODFILE CHECKSUM: 37f6440153c149a415c016815329a4ebffc3364e
+PODFILE CHECKSUM: 8a203cd8574c5daf5252e86117c030018efa54da
 
 COCOAPODS: 1.10.0.beta.2

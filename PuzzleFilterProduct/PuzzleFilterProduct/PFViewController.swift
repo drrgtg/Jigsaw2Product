@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import TZImagePickerController
+
 
 class PFViewController: QMUICommonViewController {
 
@@ -58,6 +60,19 @@ class PFViewController: QMUICommonViewController {
     }
     
     @IBAction func clickStart(_ sender: Any) {
+        guard let imagePickerVC = TZImagePickerController(maxImagesCount: 1, delegate: self) else {
+            return
+        }
+        imagePickerVC.didFinishPickingPhotosHandle = {[weak self] (photos, assets, isSelectOriginalPhoto) in
+            // go to edit
+            guard let image = photos?.first else {
+                return
+            }
+            let vc = PFEditViewController()
+            vc.image = image
+            self?.navigationController?.pushViewController(vc, animated: true)
+        }
+        present(imagePickerVC, animated: true, completion: nil)
     }
     @IBAction func clickGold(_ sender: Any) {
         let vc = PFCoinListViewController()
@@ -70,3 +85,6 @@ class PFViewController: QMUICommonViewController {
     }
 }
 
+extension PFViewController: TZImagePickerControllerDelegate {
+    
+}

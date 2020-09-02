@@ -34,6 +34,18 @@
 		9D150F7424FE579A00845A87 /* PFPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F7224FE579A00845A87 /* PFPrivacyViewController.xib */; };
 		9D150F7724FE584800845A87 /* PFTermServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F7524FE584800845A87 /* PFTermServiceViewController.swift */; };
 		9D150F7824FE584800845A87 /* PFTermServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F7624FE584800845A87 /* PFTermServiceViewController.xib */; };
+		9D150F7D24FF389C00845A87 /* PFEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F7B24FF389C00845A87 /* PFEditViewController.swift */; };
+		9D150F7E24FF389C00845A87 /* PFEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F7C24FF389C00845A87 /* PFEditViewController.xib */; };
+		9D150F8224FF38B000845A87 /* PFSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F8024FF38B000845A87 /* PFSaveViewController.swift */; };
+		9D150F8324FF38B000845A87 /* PFSaveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D150F8124FF38B000845A87 /* PFSaveViewController.xib */; };
+		9D150F8624FF444E00845A87 /* PFCircleBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F8524FF444E00845A87 /* PFCircleBGView.swift */; };
+		9D150F8824FF681000845A87 /* PFBorderBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F8724FF681000845A87 /* PFBorderBGView.swift */; };
+		9D150F8A24FF692100845A87 /* PFColorItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F8924FF692100845A87 /* PFColorItemView.swift */; };
+		9D150F8D24FF6BC000845A87 /* PFColorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F8C24FF6BC000845A87 /* PFColorsModel.swift */; };
+		9D150F8F24FF731D00845A87 /* PFBackgroundBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F8E24FF731D00845A87 /* PFBackgroundBGView.swift */; };
+		9D150F9124FF735800845A87 /* PFBackgroundImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9024FF735800845A87 /* PFBackgroundImageModel.swift */; };
+		9D150F9324FF776500845A87 /* PFStickerBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9224FF776500845A87 /* PFStickerBGView.swift */; };
+		9D150F9524FF777300845A87 /* PFStickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9424FF777300845A87 /* PFStickerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +84,18 @@
 		9D150F7224FE579A00845A87 /* PFPrivacyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PFPrivacyViewController.xib; sourceTree = "<group>"; };
 		9D150F7524FE584800845A87 /* PFTermServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFTermServiceViewController.swift; sourceTree = "<group>"; };
 		9D150F7624FE584800845A87 /* PFTermServiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PFTermServiceViewController.xib; sourceTree = "<group>"; };
+		9D150F7B24FF389C00845A87 /* PFEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFEditViewController.swift; sourceTree = "<group>"; };
+		9D150F7C24FF389C00845A87 /* PFEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PFEditViewController.xib; sourceTree = "<group>"; };
+		9D150F8024FF38B000845A87 /* PFSaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFSaveViewController.swift; sourceTree = "<group>"; };
+		9D150F8124FF38B000845A87 /* PFSaveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PFSaveViewController.xib; sourceTree = "<group>"; };
+		9D150F8524FF444E00845A87 /* PFCircleBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFCircleBGView.swift; sourceTree = "<group>"; };
+		9D150F8724FF681000845A87 /* PFBorderBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFBorderBGView.swift; sourceTree = "<group>"; };
+		9D150F8924FF692100845A87 /* PFColorItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFColorItemView.swift; sourceTree = "<group>"; };
+		9D150F8C24FF6BC000845A87 /* PFColorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFColorsModel.swift; sourceTree = "<group>"; };
+		9D150F8E24FF731D00845A87 /* PFBackgroundBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFBackgroundBGView.swift; sourceTree = "<group>"; };
+		9D150F9024FF735800845A87 /* PFBackgroundImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFBackgroundImageModel.swift; sourceTree = "<group>"; };
+		9D150F9224FF776500845A87 /* PFStickerBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFStickerBGView.swift; sourceTree = "<group>"; };
+		9D150F9424FF777300845A87 /* PFStickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFStickerModel.swift; sourceTree = "<group>"; };
 		D589157304DDCD306EDDA7E5 /* Pods_PuzzleFilterProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuzzleFilterProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +151,8 @@
 			children = (
 				9D150F2B24FE36AB00845A87 /* AppDelegate.swift */,
 				9D150F2F24FE36AB00845A87 /* PFViewController.swift */,
+				9D150F7F24FF38A500845A87 /* Save */,
+				9D150F7A24FF388900845A87 /* Edit */,
 				9D150F6724FE525500845A87 /* Setting */,
 				9D150F5F24FE48FE00845A87 /* Coin */,
 				9D150F4A24FE390100845A87 /* StickerView-Framework */,
@@ -225,6 +251,48 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9D150F7A24FF388900845A87 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				9D150F7B24FF389C00845A87 /* PFEditViewController.swift */,
+				9D150F8B24FF6BAE00845A87 /* Model */,
+				9D150F7C24FF389C00845A87 /* PFEditViewController.xib */,
+				9D150F8424FF441300845A87 /* View */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		9D150F7F24FF38A500845A87 /* Save */ = {
+			isa = PBXGroup;
+			children = (
+				9D150F8024FF38B000845A87 /* PFSaveViewController.swift */,
+				9D150F8124FF38B000845A87 /* PFSaveViewController.xib */,
+			);
+			path = Save;
+			sourceTree = "<group>";
+		};
+		9D150F8424FF441300845A87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D150F8924FF692100845A87 /* PFColorItemView.swift */,
+				9D150F8524FF444E00845A87 /* PFCircleBGView.swift */,
+				9D150F8724FF681000845A87 /* PFBorderBGView.swift */,
+				9D150F8E24FF731D00845A87 /* PFBackgroundBGView.swift */,
+				9D150F9224FF776500845A87 /* PFStickerBGView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D150F8B24FF6BAE00845A87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D150F8C24FF6BC000845A87 /* PFColorsModel.swift */,
+				9D150F9024FF735800845A87 /* PFBackgroundImageModel.swift */,
+				9D150F9424FF777300845A87 /* PFStickerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,6 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D150F7E24FF389C00845A87 /* PFEditViewController.xib in Resources */,
+				9D150F8324FF38B000845A87 /* PFSaveViewController.xib in Resources */,
 				9D150F6624FE4A2B00845A87 /* PFCoinCollectionViewCell.xib in Resources */,
 				9D150F3824FE36C000845A87 /* LaunchScreen.storyboard in Resources */,
 				9D150F7024FE543E00845A87 /* PFSettingTableViewCell.xib in Resources */,
@@ -348,12 +418,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D150F8624FF444E00845A87 /* PFCircleBGView.swift in Sources */,
 				9D150F6124FE491700845A87 /* PFCoinListViewController.swift in Sources */,
 				9D150F5224FE390100845A87 /* StickerView.m in Sources */,
 				9D150F5124FE390100845A87 /* SingleHandGestureRecognizer.m in Sources */,
 				9D150F3024FE36AB00845A87 /* PFViewController.swift in Sources */,
+				9D150F8F24FF731D00845A87 /* PFBackgroundBGView.swift in Sources */,
+				9D150F8A24FF692100845A87 /* PFColorItemView.swift in Sources */,
 				9D150F6F24FE543E00845A87 /* PFSettingTableViewCell.swift in Sources */,
 				9D150F6A24FE529900845A87 /* PFSettingViewController.swift in Sources */,
+				9D150F9124FF735800845A87 /* PFBackgroundImageModel.swift in Sources */,
+				9D150F7D24FF389C00845A87 /* PFEditViewController.swift in Sources */,
 				9D150F4624FE382500845A87 /* JPToast.swift in Sources */,
 				9D150F4824FE386200845A87 /* PFBaseNavigationController.swift in Sources */,
 				9D150F7324FE579A00845A87 /* PFPrivacyViewController.swift in Sources */,
@@ -361,7 +436,12 @@
 				9D150F5A24FE3F4700845A87 /* FFStyleModel.m in Sources */,
 				9D150F5524FE397C00845A87 /* PFBaseViewController.swift in Sources */,
 				9D150F5724FE3DF900845A87 /* Constant.swift in Sources */,
+				9D150F8824FF681000845A87 /* PFBorderBGView.swift in Sources */,
+				9D150F9524FF777300845A87 /* PFStickerModel.swift in Sources */,
+				9D150F9324FF776500845A87 /* PFStickerBGView.swift in Sources */,
 				9D150F4524FE382500845A87 /* QMUIConfigurationTemplate.m in Sources */,
+				9D150F8224FF38B000845A87 /* PFSaveViewController.swift in Sources */,
+				9D150F8D24FF6BC000845A87 /* PFColorsModel.swift in Sources */,
 				9D150F7724FE584800845A87 /* PFTermServiceViewController.swift in Sources */,
 				9D150F6524FE4A2B00845A87 /* PFCoinCollectionViewCell.swift in Sources */,
 			);

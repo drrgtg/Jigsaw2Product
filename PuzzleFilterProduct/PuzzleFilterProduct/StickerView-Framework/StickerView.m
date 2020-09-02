@@ -43,13 +43,13 @@
         [self addSubview:self.contentView];
         
         self.resizeControl = [[UIImageView alloc] initWithFrame:CGRectMake(self.contentView.center.x + self.contentView.bounds.size.width / 2 - kStickerHalfControlViewSize, self.contentView.center.y + self.contentView.bounds.size.height / 2 - kStickerHalfControlViewSize, kStickerControlViewSize, kStickerControlViewSize)];
-//        self.resizeControl.image = [UIImage imageNamed:@"StickerView.bundle/btn_resize.png"];
-        self.resizeControl.image = [UIImage imageNamed:@"icon_resize"];
+        self.resizeControl.image = [UIImage imageNamed:@"StickerView.bundle/btn_resize.png"];
+//        self.resizeControl.image = [UIImage imageNamed:@"icon_resize"];
         [self addSubview:self.resizeControl];
         
         self.deleteControl = [[UIImageView alloc] initWithFrame:CGRectMake(self.contentView.center.x - self.contentView.bounds.size.width / 2 - kStickerHalfControlViewSize, self.contentView.center.y - self.contentView.bounds.size.height / 2 - kStickerHalfControlViewSize, kStickerControlViewSize, kStickerControlViewSize)];
-//        self.deleteControl.image = [UIImage imageNamed:@"StickerView.bundle/btn_delete.png"];
-        self.deleteControl.image = [UIImage imageNamed:@"icon_delete"];
+        self.deleteControl.image = [UIImage imageNamed:@"StickerView.bundle/btn_delete.png"];
+//        self.deleteControl.image = [UIImage imageNamed:@"icon_delete"];
         [self addSubview:self.deleteControl];
         
         self.rightTopControl = [[UIImageView alloc] initWithFrame:CGRectMake(self.contentView.center.x + self.contentView.bounds.size.width / 2 - kStickerHalfControlViewSize, self.contentView.center.y - self.contentView.bounds.size.height / 2 - kStickerHalfControlViewSize, kStickerControlViewSize, kStickerControlViewSize)];
