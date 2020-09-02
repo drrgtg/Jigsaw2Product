@@ -29,7 +29,7 @@ class PFStickerBGView: UIView {
         scroll1.contentInset = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15)
         scroll1.snp.makeConstraints { (make) in
             make.leading.trailing.equalToSuperview()
-            make.top.equalToSuperview().offset(18)
+            make.top.equalToSuperview().offset(10)
             make.height.equalTo(40)
         }
         scrollView1 = scroll1
@@ -54,7 +54,7 @@ class PFStickerBGView: UIView {
             let x = i * 50
             let tempView = PFColorItemView(frame: CGRect(x: x, y: 0, width: 40, height: 40))
             scrollView1?.addSubview(tempView)
-            tempView.contentBtn.tag = 300 + i
+            tempView.tag = 300 + i
             tempView.contentBtn.setBackgroundImage(image, for: .normal)
             tempView.clickBlock = {[weak self] (tag) in
                 guard let sself = self else {
@@ -68,10 +68,9 @@ class PFStickerBGView: UIView {
         // backgroundColor
         for i in 0..<model.allSticker2.count {
             let image = model.allSticker2[i]
-            let x = i * 50
+            let x = i * 50  
             let tempView = PFColorItemView(frame: CGRect(x: x, y: 0, width: 40, height: 40))
-            scrollView1?.addSubview(tempView)
-            tempView.contentBtn.tag = 400 + i
+            tempView.tag = 400 + i
             scrollView2?.addSubview(tempView)
             tempView.contentBtn.setBackgroundImage(image, for: .normal)
             tempView.clickBlock = {[weak self] (tag) in
@@ -82,7 +81,7 @@ class PFStickerBGView: UIView {
                 sself.clickBGColorBlock?(image)
             }
         }
-        scrollView2?.contentSize = CGSize(width: model.allSticker2.count * 50, height: 50)
+        scrollView2?.contentSize = CGSize(width: model.allSticker2.count * 50, height: 40)
     }
     func clickSmContentBtn(_ tag: Int, count: Int) {
         for i in 0..<count {
