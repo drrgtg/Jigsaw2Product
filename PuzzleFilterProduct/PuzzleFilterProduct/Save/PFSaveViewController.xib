@@ -26,20 +26,20 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saved successfully！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12s-Ar-2IS">
-                    <rect key="frame" x="105.66666666666669" y="461" width="164" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <rect key="frame" x="91.333333333333329" y="461" width="192.33333333333337" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1e-yD-PsJ">
-                    <rect key="frame" x="70.666666666666686" y="518" width="234" height="40"/>
+                    <rect key="frame" x="70.666666666666686" y="521" width="234" height="40"/>
                     <state key="normal" image="icon_share_home"/>
                     <connections>
                         <action selector="backHome:" destination="-1" eventType="touchUpInside" id="an5-Ef-o9F"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNw-CX-FRT">
-                    <rect key="frame" x="70.666666666666686" y="574" width="233.66666666666663" height="40"/>
+                    <rect key="frame" x="70.666666666666671" y="577" width="233.66666666666663" height="40"/>
                     <state key="normal" backgroundImage="icon_share_share"/>
                     <connections>
                         <action selector="share:" destination="-1" eventType="touchUpInside" id="CSt-m2-vLZ"/>
