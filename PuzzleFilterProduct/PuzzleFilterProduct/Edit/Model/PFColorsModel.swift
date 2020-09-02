@@ -10,6 +10,7 @@ import UIKit
 
 class PFColorsModel: NSObject {
     let allColors:[UIColor?] = [
+        UIColor.qmui_color(withHexString: "#FFFFFF"),
         UIColor.qmui_color(withHexString: "#7F65EA"),
         UIColor.qmui_color(withHexString: "#F4FF7F"),
         UIColor.qmui_color(withHexString: "#B4F78F"),

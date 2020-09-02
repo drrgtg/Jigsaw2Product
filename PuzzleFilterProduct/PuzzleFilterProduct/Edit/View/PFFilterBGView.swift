@@ -44,7 +44,7 @@ class PFFilterBGView: UIView {
             let tempView = PFFilterItemView(frame: CGRect(x: CGFloat(x), y: 0, width: 64, height: 80))
             scrollView1?.addSubview(tempView)
             tempView.tag = 500 + i
-            tempView.nameLabel?.text = model.filterNames[i]
+            tempView.nameLabel?.text = model.filterSName[i]
             tempView.clickBlock = {[weak self] (tag) in
                 guard let sself = self else {
                     return

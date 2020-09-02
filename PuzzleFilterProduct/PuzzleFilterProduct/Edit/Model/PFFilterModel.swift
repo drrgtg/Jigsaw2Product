@@ -26,4 +26,21 @@ class PFFilterModel: NSObject {
     "CIPhotoEffectInstant",
     "CISepiaTone",
     ]
+    let filterSName: [String] = [
+        "Original",
+        "Mono",
+        "Process",
+        "Transfer",
+        "Monochrome",
+        "Posterize",
+        "Tonal",
+        "Noir",
+        "CurveToLinear",
+        "FalseColor",
+        "MaximumComponent",
+        "Chrome",
+        "Fade",
+        "Instant",
+        "SepiaTone"
+    ]
 }

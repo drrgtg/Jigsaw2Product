@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="icon_preview" translatesAutoresizingMaskIntoConstraints="NO" id="MAm-rT-kR8">
-                                <rect key="frame" x="46.5" y="192" width="321" height="466"/>
+                                <rect key="frame" x="46.5" y="104" width="321" height="554"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qg8-OV-201">
                                 <rect key="frame" x="0.0" y="792" width="414" height="70"/>
@@ -46,6 +46,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="gEy-ty-rfs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A0o-Iw-urb"/>
+                            <constraint firstItem="MAm-rT-kR8" firstAttribute="top" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="FOa-LW-gYy"/>
                             <constraint firstItem="gEy-ty-rfs" firstAttribute="top" secondItem="MAm-rT-kR8" secondAttribute="bottom" constant="31" id="Fa5-yq-lDK"/>
                             <constraint firstItem="qg8-OV-201" firstAttribute="top" secondItem="gEy-ty-rfs" secondAttribute="bottom" constant="56" id="LC6-tZ-HLI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qg8-OV-201" secondAttribute="trailing" id="P97-5K-gHa"/>
@@ -53,6 +54,7 @@
                             <constraint firstItem="qg8-OV-201" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cfC-MN-XKK"/>
                             <constraint firstItem="MAm-rT-kR8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hnV-3j-xPo"/>
                             <constraint firstItem="qg8-OV-201" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nqH-6J-EQW"/>
+                            <constraint firstItem="MAm-rT-kR8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="pYZ-nX-4Bj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

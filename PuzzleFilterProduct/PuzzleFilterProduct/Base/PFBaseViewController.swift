@@ -14,7 +14,7 @@ class PFBaseViewController: QMUICommonViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        view.backgroundColor = .black
+        view.backgroundColor = UIColor.qmui_color(withHexString: "#121212")
 
     }
 
