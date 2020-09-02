@@ -46,6 +46,9 @@
 		9D150F9124FF735800845A87 /* PFBackgroundImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9024FF735800845A87 /* PFBackgroundImageModel.swift */; };
 		9D150F9324FF776500845A87 /* PFStickerBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9224FF776500845A87 /* PFStickerBGView.swift */; };
 		9D150F9524FF777300845A87 /* PFStickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9424FF777300845A87 /* PFStickerModel.swift */; };
+		9D150F9724FF7E1500845A87 /* PFFilterBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9624FF7E1500845A87 /* PFFilterBGView.swift */; };
+		9D150F9924FF7F3500845A87 /* PFFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9824FF7F3500845A87 /* PFFilterModel.swift */; };
+		9D150F9B24FF832900845A87 /* PFFilterItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D150F9A24FF832900845A87 /* PFFilterItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +99,9 @@
 		9D150F9024FF735800845A87 /* PFBackgroundImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFBackgroundImageModel.swift; sourceTree = "<group>"; };
 		9D150F9224FF776500845A87 /* PFStickerBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFStickerBGView.swift; sourceTree = "<group>"; };
 		9D150F9424FF777300845A87 /* PFStickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFStickerModel.swift; sourceTree = "<group>"; };
+		9D150F9624FF7E1500845A87 /* PFFilterBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFFilterBGView.swift; sourceTree = "<group>"; };
+		9D150F9824FF7F3500845A87 /* PFFilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFFilterModel.swift; sourceTree = "<group>"; };
+		9D150F9A24FF832900845A87 /* PFFilterItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFFilterItemView.swift; sourceTree = "<group>"; };
 		D589157304DDCD306EDDA7E5 /* Pods_PuzzleFilterProduct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuzzleFilterProduct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -275,10 +281,12 @@
 			isa = PBXGroup;
 			children = (
 				9D150F8924FF692100845A87 /* PFColorItemView.swift */,
+				9D150F9A24FF832900845A87 /* PFFilterItemView.swift */,
 				9D150F8524FF444E00845A87 /* PFCircleBGView.swift */,
 				9D150F8724FF681000845A87 /* PFBorderBGView.swift */,
 				9D150F8E24FF731D00845A87 /* PFBackgroundBGView.swift */,
 				9D150F9224FF776500845A87 /* PFStickerBGView.swift */,
+				9D150F9624FF7E1500845A87 /* PFFilterBGView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +297,7 @@
 				9D150F8C24FF6BC000845A87 /* PFColorsModel.swift */,
 				9D150F9024FF735800845A87 /* PFBackgroundImageModel.swift */,
 				9D150F9424FF777300845A87 /* PFStickerModel.swift */,
+				9D150F9824FF7F3500845A87 /* PFFilterModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -429,6 +438,8 @@
 				9D150F6A24FE529900845A87 /* PFSettingViewController.swift in Sources */,
 				9D150F9124FF735800845A87 /* PFBackgroundImageModel.swift in Sources */,
 				9D150F7D24FF389C00845A87 /* PFEditViewController.swift in Sources */,
+				9D150F9924FF7F3500845A87 /* PFFilterModel.swift in Sources */,
+				9D150F9B24FF832900845A87 /* PFFilterItemView.swift in Sources */,
 				9D150F4624FE382500845A87 /* JPToast.swift in Sources */,
 				9D150F4824FE386200845A87 /* PFBaseNavigationController.swift in Sources */,
 				9D150F7324FE579A00845A87 /* PFPrivacyViewController.swift in Sources */,
@@ -444,6 +455,7 @@
 				9D150F8D24FF6BC000845A87 /* PFColorsModel.swift in Sources */,
 				9D150F7724FE584800845A87 /* PFTermServiceViewController.swift in Sources */,
 				9D150F6524FE4A2B00845A87 /* PFCoinCollectionViewCell.swift in Sources */,
+				9D150F9724FF7E1500845A87 /* PFFilterBGView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

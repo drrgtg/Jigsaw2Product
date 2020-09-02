@@ -30,6 +30,8 @@ class PFEditViewController: PFBaseViewController {
     var btn3BGV: PFBackgroundBGView?
     // stickerView
     var btn4BGV: PFStickerBGView?
+    // Filter
+    var btn5BGV: PFFilterBGView?
     
     var selectSticker: StickerView?
     var simage: UIImage?
@@ -140,6 +142,13 @@ class PFEditViewController: PFBaseViewController {
         v4.backgroundColor = bottomBGView.backgroundColor
         btn4BGV = v4
         v4.isHidden = true
+        // 5
+        let v5 = PFFilterBGView(frame: frame)
+        toolsBGView.addSubview(v5)
+        v5.backgroundColor = bottomBGView.backgroundColor
+        btn5BGV = v5
+        v5.fillImage(image!)
+        v5.isHidden = true
     }
     func btn1ModeChanged() {
         btn1BGV?.slideFilletBlock = {[weak self] (progress) in
@@ -187,7 +196,12 @@ class PFEditViewController: PFBaseViewController {
         }
     }
     func btn5ModeChanged() {
-        
+        btn5BGV?.colorSelBlock = {[weak self] (image) in
+            guard let sself = self else {
+                return
+            }
+            sself.contentImageView.image = image
+        }
     }
     func addStickerView(_ image: UIImage) {
 
@@ -246,10 +260,10 @@ class PFEditViewController: PFBaseViewController {
     }
     @IBAction func clickBtn5(_ sender: Any) {
         btn1.isSelected = false
-//        btn5BGV?.isHidden = false
-//        if let tv = btn5BGV {
-//            toolsBGView.bringSubviewToFront(tv)
-//        }
+        btn5BGV?.isHidden = false
+        if let tv = btn5BGV {
+            toolsBGView.bringSubviewToFront(tv)
+        }
         btn2.isSelected = false
         btn3.isSelected = false
         btn4.isSelected = false
