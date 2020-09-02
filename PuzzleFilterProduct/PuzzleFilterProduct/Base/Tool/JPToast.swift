@@ -25,11 +25,10 @@ class JPToast: NSObject {
         }
     }
     open class func showLoading(_ message: String) {
-        SVProgressHUD.show(withStatus: "")
+        SVProgressHUD.show(withStatus: message)
     }
     open class func hidLoading() {
         SVProgressHUD.dismiss()
-
     }
 }
 

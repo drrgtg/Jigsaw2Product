@@ -30,6 +30,7 @@ class PFSaveViewController: PFBaseViewController {
         contentImageView.image = image
     }
     @IBAction func backHome(_ sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
     }
     @IBAction func share(_ sender: Any) {
         //初始化一个UIActivity

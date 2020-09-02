@@ -285,6 +285,7 @@ class PFEditViewController: PFBaseViewController {
                 let vc = PFCoinListViewController()
                 navigationController?.pushViewController(vc, animated: true)
             } else {
+                JPToast.showLoading("Saving")
                 UserDefaults.standard.setValue("\(Int(goldNumber)! - 3000)", forKey: kIAPDefaultGoldNumber)
                 simage = saveImage()
                 if let saveImage = simage {
@@ -294,6 +295,7 @@ class PFEditViewController: PFBaseViewController {
         }
     }
     @objc func imageSaveFinished(image: UIImage, error: Error, context: UnsafeRawPointer) {
+        JPToast.hidLoading()
         let vc = PFSaveViewController()
         vc.image = simage
         navigationController?.pushViewController(vc, animated: true)
