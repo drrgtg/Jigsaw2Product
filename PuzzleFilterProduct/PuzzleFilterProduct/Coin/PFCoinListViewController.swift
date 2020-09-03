@@ -26,16 +26,16 @@ class PFCoinListViewController: PFBaseViewController {
     private var coinBtn: QMUIButton?
 
     private let dataSource: Array = [
-        JPProductItem("$6.99", goldNumber: "1000", iapID: "com.diantus.JigsawProduct.buy258", desc: "X 1000"),
-        JPProductItem("$11.99", goldNumber: "2000", iapID: "com.diantus.JigsawProduct.buy388", desc: "X 2000"),
-        JPProductItem("$19.99", goldNumber: "3000", iapID: "com.diantus.JigsawProduct.buy518", desc: "X 3000"),
-        JPProductItem("$29.99", goldNumber: "4000", iapID: "com.diantus.JigsawProduct.buy648", desc: "X 4000"),
-        JPProductItem("$39.99", goldNumber: "5000", iapID: "com.diantus.JigsawProduct.buy848", desc: "X 5000"),
-        JPProductItem("$49.99", goldNumber: "6000", iapID: "com.diantus.JigsawProduct.buy998", desc: "X 6000"),
-        JPProductItem("$59.99", goldNumber: "7000", iapID: "com.diantus.JigsawProduct.buy1298", desc: "X 7000"),
-        JPProductItem("$69.99", goldNumber: "8000", iapID: "com.diantus.JigsawProduct.buy1998", desc: "X 8000"),
-        JPProductItem("$79.99", goldNumber: "9000", iapID: "com.diantus.JigsawProduct.buy3998", desc: "X 9000"),
-        JPProductItem("$89.99", goldNumber: "10000", iapID: "com.diantus.JigsawProduct.buy4998", desc: "X 10000")
+        JPProductItem("$6.99", goldNumber: "1000", iapID: "com.diantus.PuzzleFilterProduct.buy258", desc: "X 1000"),
+        JPProductItem("$11.99", goldNumber: "2000", iapID: "com.diantus.PuzzleFilterProduct.buy388", desc: "X 2000"),
+        JPProductItem("$19.99", goldNumber: "3000", iapID: "com.diantus.PuzzleFilterProduct.buy518", desc: "X 3000"),
+        JPProductItem("$29.99", goldNumber: "4000", iapID: "com.diantus.PuzzleFilterProduct.buy648", desc: "X 4000"),
+        JPProductItem("$49.99", goldNumber: "5000", iapID: "com.diantus.PuzzleFilterProduct.buy848", desc: "X 5000"),
+        JPProductItem("$99.99", goldNumber: "6000", iapID: "com.diantus.PuzzleFilterProduct.buy998", desc: "X 6000"),
+        JPProductItem("$59.99", goldNumber: "7000", iapID: "com.diantus.PuzzleFilterProduct.buy1298", desc: "X 7000"),
+        JPProductItem("$69.99", goldNumber: "8000", iapID: "com.diantus.PuzzleFilterProduct.buy1998", desc: "X 8000"),
+        JPProductItem("$79.99", goldNumber: "9000", iapID: "com.diantus.PuzzleFilterProduct.buy3998", desc: "X 9000"),
+        JPProductItem("$89.99", goldNumber: "10000", iapID: "com.diantus.PuzzleFilterProduct.buy4998", desc: "X 10000")
     ]
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
