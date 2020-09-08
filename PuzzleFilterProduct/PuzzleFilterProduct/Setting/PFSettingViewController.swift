@@ -66,7 +66,7 @@ extension PFSettingViewController: UITableViewDelegate, UITableViewDataSource {
             cacheSize = "0M"
             tableView.reloadData()
         case 2:
-            let myAppId = ""
+            let myAppId = "1530780157"
             let urlStr = "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=\(myAppId)&pageNumber=0&sortOrdering=2&mt=8"
             if let url = URL(string: urlStr){
                 UIApplication.shared.openURL(url)

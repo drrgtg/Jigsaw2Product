@@ -54,7 +54,7 @@
 /* Begin PBXFileReference section */
 		57D18EF122FB630863FCFFDE /* Pods-PuzzleFilterProduct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuzzleFilterProduct.release.xcconfig"; path = "Target Support Files/Pods-PuzzleFilterProduct/Pods-PuzzleFilterProduct.release.xcconfig"; sourceTree = "<group>"; };
 		95D2D62F8279F06E7C4422FF /* Pods-PuzzleFilterProduct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuzzleFilterProduct.debug.xcconfig"; path = "Target Support Files/Pods-PuzzleFilterProduct/Pods-PuzzleFilterProduct.debug.xcconfig"; sourceTree = "<group>"; };
-		9D150F2824FE36AB00845A87 /* PuzzleFilterProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzleFilterProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D150F2824FE36AB00845A87 /* AvatarMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D150F2B24FE36AB00845A87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D150F2F24FE36AB00845A87 /* PFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFViewController.swift; sourceTree = "<group>"; };
 		9D150F3224FE36AB00845A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		9D150F2924FE36AB00845A87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D150F2824FE36AB00845A87 /* PuzzleFilterProduct.app */,
+				9D150F2824FE36AB00845A87 /* AvatarMax.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 			);
 			name = PuzzleFilterProduct;
 			productName = PuzzleFilterProduct;
-			productReference = 9D150F2824FE36AB00845A87 /* PuzzleFilterProduct.app */;
+			productReference = 9D150F2824FE36AB00845A87 /* AvatarMax.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -600,17 +600,19 @@
 			baseConfigurationReference = 95D2D62F8279F06E7C4422FF /* Pods-PuzzleFilterProduct.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TEA4KWX63Q;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = BJXKJTZBWQ;
 				INFOPLIST_FILE = PuzzleFilterProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.diantus.PuzzleFilterProduct;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diantus.PuzzleFilters;
+				PRODUCT_NAME = AvatarMax;
+				PROVISIONING_PROFILE_SPECIFIER = AppStore;
 				SWIFT_OBJC_BRIDGING_HEADER = "PuzzleFilterProduct/PuzzleFilterProduct-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -622,17 +624,19 @@
 			baseConfigurationReference = 57D18EF122FB630863FCFFDE /* Pods-PuzzleFilterProduct.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TEA4KWX63Q;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = BJXKJTZBWQ;
 				INFOPLIST_FILE = PuzzleFilterProduct/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.diantus.PuzzleFilterProduct;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diantus.PuzzleFilters;
+				PRODUCT_NAME = AvatarMax;
+				PROVISIONING_PROFILE_SPECIFIER = AppStore;
 				SWIFT_OBJC_BRIDGING_HEADER = "PuzzleFilterProduct/PuzzleFilterProduct-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
