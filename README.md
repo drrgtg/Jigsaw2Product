@@ -1,5 +1,6 @@
 # mj_02
 
+## 头像设计app，包含内购，切割，加边框，可调整边框大小，添加背景，添加贴图，以及滤镜等功能，已上架过App Store
 
 # 效果图
 ![1](https://github.com/drrgtg/Jigsaw2Product/blob/master/image/1.png)
